@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import CardList from './CardList.js';
+import App from './App.js';
 //import Card from './Card.js';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
@@ -9,7 +9,7 @@ import 'tachyons'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CardList />
+    <App />
   </React.StrictMode>
 );
 
